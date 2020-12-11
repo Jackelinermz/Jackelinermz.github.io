@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jackeline Ramirez Website</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<html>
+<body class="body">
+	
+		<div class="wrapper">
+    <div class="sidebar">
+        <h2>Jackie</h2>
+        <ul>
+            <li><a href="../index.html" class="center">Home</a></li>
+            <li><a href="unit5.html" class="center">Unit 5</a></li>
+            <li><a href="unit6.html" class="center">Unit 6</a></li>
+            <li><a href="unit7.html" class="center">Unit 7</a></li>
+            <li><a href="unit8.html" class="center">Unit 8</a></li>
+            <li><a href="unit9.html" class="center">Unit 9</a></li>
+            <li><a href="unit10.html" class="center">Unit 10</a></li>
+        </ul> 
+    </div>
+		
+	<div class="main_content">
+        <div class="header" ><h1 style="font-size: 187px;">Unit 10 assignments</h1></div>  
+        <div class="info">
+
+                <form id="simpleForm" action="http://www.frodriguez.net/PHPStuff/TestFormDataDelay.php" method="POST">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="lname">Message</label>
+                    <input type="text" id="lname" name="message" placeholder="Message">
+                    
+                    <button onClick="Function()" type="submit" id="submitboton">Submit</button>
+                
+                  </form>
+                  
+
+    </div>
+    <div class="initiallyHidden">
+        <h3>Loading...</h3>
+</div>
+        </div>
+        
+	</div>
+<script src="../JS/form.js"></script>
+</body>
+</html>
